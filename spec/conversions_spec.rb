@@ -9,7 +9,8 @@ describe "conversions" do
     
     it "given 1, it should return 28.3495"
       grams = ounces_to_grams(1)
-if answer == 28.3495
+      expect(grams).to eq(28.3495)
+    end
   puts "Passed!"
 else
   puts "Test failed: got #{answer} instead"
