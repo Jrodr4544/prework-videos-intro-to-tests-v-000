@@ -11,9 +11,5 @@ describe "conversions" do
       grams = ounces_to_grams(1)
       expect(grams).to eq(28.3495)
     end
-  puts "Passed!"
-else
-  puts "Test failed: got #{answer} instead"
-end
   end
 end
